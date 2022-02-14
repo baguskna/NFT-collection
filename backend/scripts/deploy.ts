@@ -7,9 +7,9 @@ import { ethers } from "hardhat";
 
 async function main() {
   // Address of the whitelist contract that you deployed in the previous module
-  const whitelistContract = "0x95232E715372e6d331f81446ac196123E0cc705A";
+  const whitelistContract = "0x8Ba5f980C1363ab175F7F9bD318B6B3846652035";
   // URL from where we can extract the metadata for a Crypto Dev NFT
-  const metadataURL = "https://nft-collection-sneh1999.vercel.app/api/";
+  const metadataURL = "https://nft-collection-baguskna.vercel.app/api/";
   /*
   A ContractFactory in ethers.js is an abstraction used to deploy new smart contracts,
   so cryptoDevsContract here is a factory for instances of our CryptoDevs contract.
